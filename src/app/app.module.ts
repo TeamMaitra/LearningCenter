@@ -12,6 +12,7 @@ import { ComponentsModule } from './components/components.module';
 import { AppComponent } from './app.component';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+import { AppFrameworkModule } from '../app-framework/app-framework.module';
 
 @NgModule({
   imports: [
@@ -22,6 +23,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
     RouterModule,
     AppRoutingModule,
     NgbModule,
+    AppFrameworkModule,
     ToastrModule.forRoot()
   ],
   declarations: [

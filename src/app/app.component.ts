@@ -1,4 +1,5 @@
 import { Component} from '@angular/core';
+import { FrameworkConfigService } from '../app-framework/services/framework-config.service';
 
 
 @Component({
@@ -8,4 +9,7 @@ import { Component} from '@angular/core';
 })
 export class AppComponent {
 
+  constructor (private frameworkConfigService: FrameworkConfigService){
+
+  }
 }
