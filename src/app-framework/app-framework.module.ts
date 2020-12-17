@@ -4,6 +4,9 @@ import { FrameworkBodyComponent } from './framework-body/framework-body.componen
 import { FrameworkContentComponent } from './framework-content/framework-content.component';
 import { FrameworkHeaderComponent } from './framework-header/framework-header.component';
 import { FrameworkConfigService } from './services/framework-config.service';
+import { MenuService } from './services/menu.Service';
+import { MenuComponent } from './framework-menu/menu/menu.component';
+import { MenuItemComponent } from './framework-menu/menu-item/menu-item.component';
 
 
 
@@ -11,7 +14,9 @@ import { FrameworkConfigService } from './services/framework-config.service';
   declarations: [
     FrameworkBodyComponent,
     FrameworkContentComponent,
-    FrameworkHeaderComponent
+    FrameworkHeaderComponent,
+    MenuComponent,
+    MenuItemComponent
   ],
   imports: [
     CommonModule
@@ -20,7 +25,8 @@ import { FrameworkConfigService } from './services/framework-config.service';
     FrameworkBodyComponent
   ],
   providers:[
-    FrameworkConfigService
+    FrameworkConfigService,
+    MenuService
   ]
 })
 export class AppFrameworkModule { }

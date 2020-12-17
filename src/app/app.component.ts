@@ -1,5 +1,7 @@
 import { Component} from '@angular/core';
+import { MenuService } from 'src/app-framework/services/menu.Service';
 import { FrameworkConfigService } from '../app-framework/services/framework-config.service';
+import { defaultMenuItems } from './DataModel/app.menu';
 
 
 @Component({
@@ -9,7 +11,10 @@ import { FrameworkConfigService } from '../app-framework/services/framework-conf
 })
 export class AppComponent {
 
-  constructor (private frameworkConfigService: FrameworkConfigService){
+  constructor (private frameworkConfigService: FrameworkConfigService,
+                private menuService: MenuService){
+
+      menuService.menu_items = defaultMenuItems;
 
   }
 }
