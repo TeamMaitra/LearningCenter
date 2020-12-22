@@ -1,0 +1,60 @@
+:host {
+  display: block;
+}
+
+.title-bar {
+  flex-grow: 1;
+  display: flex;
+  min-height: 50px;
+}
+
+.menu-area {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-right: 20px;
+}
+
+.title-bar-small {
+  flex-grow: 1;
+  display: flex;
+  min-height: 30px;
+}
+
+.small-image-holder {
+  flex-grow: 1;
+}
+
+.small-image {
+  height: 50px;
+}
+
+span {
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 25px;
+  line-height: 50px;
+}
+.logo{
+  position: relative;
+}
+
+.logo-img{
+  width: 35px;
+  height: 35px;
+  display: block;
+  margin-left: 2px;
+  position: absolute;
+  top: 12px;
+}
+
+.simple-text{
+  display: block;
+  white-space: nowrap;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 30px;
+  overflow: hidden;
+}

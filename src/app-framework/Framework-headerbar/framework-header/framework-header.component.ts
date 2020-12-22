@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'false-framework-header',
+  selector: 'fw-framework-header',
   templateUrl: './framework-header.component.html',
   styleUrls: ['./framework-header.component.css']
 })
