@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { MenuItem } from 'src/app-framework/services/menu.Service';
+import { MenuItem } from '../../services/menu.Service';
 
 @Component({
   selector: 'fw-menu-item',
