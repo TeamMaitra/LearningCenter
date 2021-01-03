@@ -8,6 +8,7 @@ import { MenuService } from './services/menu.Service';
 import { MenuComponent } from './framework-menu/menu/menu.component';
 import { MenuItemComponent } from './framework-menu/menu-item/menu-item.component';
 import { TopBarComponent } from './Framework-headerbar/top-bar/top-bar.component';
+import { FrameworkSidebarComponent } from './framework-sidebar/framework-sidebar.component';
 
 
 
@@ -18,7 +19,8 @@ import { TopBarComponent } from './Framework-headerbar/top-bar/top-bar.component
     FrameworkHeaderComponent,
     MenuComponent,
     MenuItemComponent,
-    TopBarComponent
+    TopBarComponent,
+    FrameworkSidebarComponent
   ],
   imports: [
     CommonModule

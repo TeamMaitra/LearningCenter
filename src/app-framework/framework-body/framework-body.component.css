@@ -7,3 +7,20 @@
   left: 0;
   right: 0;
 }
+
+.Page {
+  height: 100%;
+  display: flex;
+}
+
+.Dashboard {
+  flex: 1 1 auto;
+  background-color: #FCFCFC;
+  padding: 1rem;
+}
+
+.Content {
+  flex: 5 1 60%;
+  background-color: white;
+  padding: 1rem;
+}
