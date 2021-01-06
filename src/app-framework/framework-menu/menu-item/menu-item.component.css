@@ -55,7 +55,7 @@ span {
 }
 
 .menu-item:hover {
-  background-color: #dfd;
+  background-color: rgb(3, 32, 3);
 }
 
 .menu-item.vertical-menu:hover {
@@ -63,7 +63,7 @@ span {
 }
 
 .router-link-active {
-  background-color: #dfd;
+  background-color: rgb(1, 22, 1);
 }
 
 .router-link-active.vertical-menu {
